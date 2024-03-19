@@ -1,0 +1,12 @@
+.title {
+    color: red;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
