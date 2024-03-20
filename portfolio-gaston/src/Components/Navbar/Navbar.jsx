@@ -26,7 +26,7 @@ export default function Navbar() {
         </svg>
       </button>
 
-        {open && <Sidebar open={open} setOpen={setOpen}/>}
+        <Sidebar open={open} setOpen={setOpen}/>
       </div>
     </>
   );

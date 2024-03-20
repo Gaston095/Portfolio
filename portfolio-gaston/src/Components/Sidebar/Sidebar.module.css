@@ -21,7 +21,11 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: aqua;
+    background-color: #038554;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 300ms;
 }
 
 .capaSidebar {
@@ -40,8 +44,13 @@
     text-align: center;
     font-weight: bold;
     margin-top: 40px;
+    color: white;
 }
 
-.w1 {
+.w0 {
+    width: 0;
+}
+
+.hidden {
     visibility: hidden;
 }
