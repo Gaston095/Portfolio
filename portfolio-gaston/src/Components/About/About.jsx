@@ -7,9 +7,8 @@ export default function About() {
       <div className={styles.container}>
         <div className={styles.containerTxt}>
           <label className={styles.labelGreeting}>Hola, mi nombre es</label>
-          <h1 className={styles.titleName}>Gaston Salas</h1>
+          <h1 className={styles.titleName}><label className={styles.titleNameLabel}>Gaston</label> Salas</h1>
           <label className={styles.titleProfession}>Soy Frontend Development</label>
-          <p>Algo sobre mi</p>
         </div>
 
         <div>
