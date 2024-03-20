@@ -3,9 +3,9 @@ import styles from "./Sidebar.module.css";
 export default function Sidebar({ open, setOpen }) {
   return (
     <>
-      <div className={styles.capaSidebar}></div>
+      <div className={`${!open && styles.hidden} ${styles.capaSidebar}`}></div>
 
-      <div className={styles.sidebarContainer}>
+      <div className={`${!open && styles.w0} ${styles.sidebarContainer}`}>
         <div className={styles.btnContainer}>
           <button onClick={() => setOpen(false)} className={styles.btnSidebar}>
             <svg
