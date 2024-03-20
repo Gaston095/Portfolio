@@ -1,0 +1,47 @@
+.btnSidebar {
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    left: 0;
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.sidebarContainer {
+    width: 320px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: aqua;
+}
+
+.capaSidebar {
+    background-color: rgb(71 85 105 / 0.5);
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    backdrop-filter: blur(4px);
+}
+
+.liContainer {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.w1 {
+    visibility: hidden;
+}
