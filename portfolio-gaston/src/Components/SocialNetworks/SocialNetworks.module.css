@@ -1,9 +1,9 @@
 .ul {
     display: flex;
-    gap: 15px;
+    gap: 17px;
 }
 
 .li {
-    width: 30px;
+    width: 35px;
     list-style: none;
 }
