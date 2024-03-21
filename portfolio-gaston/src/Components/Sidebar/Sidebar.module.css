@@ -43,8 +43,18 @@
     list-style: none;
     text-align: center;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 60px;
     color: white;
+}
+
+.li {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.li:hover {
+    background-color: #68ddbd;
 }
 
 .w0 {

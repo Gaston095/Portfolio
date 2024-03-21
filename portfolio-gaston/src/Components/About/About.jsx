@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import svgPc from "../../assets/svgAboutPc.svg";
+import SocialNetworks from "../SocialNetworks/SocialNetworks";
 
 export default function About() {
   return (
@@ -14,6 +15,8 @@ export default function About() {
         <div>
           <img className={styles.imgAbout} src={svgPc} />
         </div>
+
+        <SocialNetworks />
       </div>
     </>
   );
