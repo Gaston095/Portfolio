@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className={styles.navbar}>
-        <h1>Gaston Salas</h1>
+        <h1 className={styles.titleNavbar}>Gaston Salas</h1>
 
         <button onClick={()=> setOpen(true)} className={styles.btnNavbar}>
         <svg

@@ -1,0 +1,9 @@
+.ul {
+    display: flex;
+    gap: 15px;
+}
+
+.li {
+    width: 30px;
+    list-style: none;
+}
