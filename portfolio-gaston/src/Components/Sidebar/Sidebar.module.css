@@ -21,7 +21,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #038554;
+    background-color: var(--bg-deep-sea);
     /*transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;*/
@@ -54,7 +54,7 @@
 }
 
 .li:hover {
-    background-color: #68ddbd;
+    background-color: var(--main-bg-color);
 }
 
 .w0 {
@@ -91,7 +91,7 @@
 
     .li:hover {
         background-color: white;
-        border-bottom: 3px solid #68ddbd;
+        border-bottom: 3px solid var(--bg-viking);
         border-radius: 1px;
     }
 
