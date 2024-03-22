@@ -9,7 +9,7 @@ export default function SocialNetworks() {
     <>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <a href="https://www.linkedin.com/in/gastonsalas095/" target="_blank"><IconLinkedin /></a>
+          <a href="https://www.linkedin.com/in/gastonsalas095/" target="_blank"><IconLinkedin/></a>
         </li>
         <li className={styles.li}>
           <a href="https://github.com/Gaston095" target="_blank">

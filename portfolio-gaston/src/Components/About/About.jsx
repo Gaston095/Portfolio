@@ -1,28 +1,21 @@
-import styles from "./About.module.css";
-import svgPc from "../../assets/svgAboutPc.svg";
-import SocialNetworks from "../SocialNetworks/SocialNetworks";
+import styles from './About.module.css'
+import imgPerfil from '../../assets/imgAbout/imgPerfilGaston.jpeg'
 
 export default function About() {
-  return (
-    <>
-      <div className={styles.container}>
-        <div className={styles.containerTxt}>
-          <label className={styles.labelGreeting}>Hola, mi nombre es</label>
-          <h1 className={styles.titleName}>
-            <label className={styles.titleNameLabel}>Gaston</label> Salas
-          </h1>
-          <label className={styles.titleProfession}>
-            Soy Frontend Development
-          </label>
-        </div>
-
-        <div>
-          <img className={styles.imgAbout} src={svgPc} />
-        </div>
-      </div>
-      <div className={styles.socialContainer}>
-        <SocialNetworks />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <h1 className={styles.nameSection}>About</h1>
+            <div className={styles.container}>
+                <div>
+                    <img className={styles.imgPerfil} src={imgPerfil} alt='imagen de perfil'/>
+                </div>
+                <div className={styles.infoContainer}>
+                    <h2>Sobre mi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quaerat iste voluptatem illum quia natus amet modi repellat? 
+                       Corporis veritatis iste esse consequuntur natus aut? Ab voluptas commodi esse ut iste?</p>
+                </div>
+            </div>
+        </>
+    )
 }

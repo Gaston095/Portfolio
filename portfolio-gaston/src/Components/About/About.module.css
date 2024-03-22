@@ -1,75 +1,21 @@
+.nameSection{
+    text-align: center;
+    margin-top: 40px;
+}
+
 .container {
-    max-width: 90%;
-    margin: 0 auto;
-    height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
 }
 
-.containerTxt {
-    display: flex;
-    flex-direction: column;
+.imgPerfil {
+    width: 200px;
+    border-radius: 5px;
 }
 
-.labelGreeting {
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1;
-    margin-bottom: 5px;
-    font-size: 2.2rem;
-}
-
-.titleName {
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 5px;
-    font-size: 3.4rem;
-}
-
-.titleNameLabel {
-    color: #03bb85; 
-}
-
-.titleProfession {
-    color: #616161;
-    margin-bottom: 10px;
-    font-size: 1.7rem;
-    line-height: 1.5;
-}
-
-.imgAbout {
-    width: 250px;
-    height:250px;
-}
-
-.socialContainer {
-    height: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-@media (width >= 1000px) {
-    .container {
-        flex-direction: row;
-
-    }
-
-    .labelGreeting {
-        font-size: 2.8rem;
-    }
-
-    .titleName {   
-        font-size: 4.8rem;
-    }
-
-    .titleProfession {
-        font-size: 2rem;
-    }
-
-    .imgAbout {
-        width: 350px;
-        height:350px;
-    }
+.infoContainer {
+    max-width: calc(90vw - 200px);
+    margin: 0 auto;
 }
