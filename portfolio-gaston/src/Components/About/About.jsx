@@ -6,7 +6,7 @@ export default function About() {
         <>
             <h1 className={styles.nameSection}>About</h1>
             <div className={styles.container}>
-                <div>
+                <div className={styles.imgPerfilContainer}>
                     <img className={styles.imgPerfil} src={imgPerfil} alt='imagen de perfil'/>
                 </div>
                 <div className={styles.infoContainer}>
