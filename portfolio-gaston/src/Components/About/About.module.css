@@ -1,6 +1,9 @@
 .nameSection{
     text-align: center;
-    margin-top: 40px;
+    width: 100px;
+    margin: 40px auto 15px auto;
+    border-bottom: 3px solid var(--main-bg-color);
+    color: var(--main-bg-color);
 }
 
 .container {
@@ -16,6 +19,17 @@
 }
 
 .infoContainer {
-    max-width: calc(90vw - 200px);
+    max-width: calc(70vw);
     margin: 0 auto;
+    margin-top: 10px;
+}
+
+.titleInfo {
+    text-align: center;
+}
+
+.txtInfo {
+    color: var(--text-dove-gray);
+    font-weight: 500;
+    padding: 5px;
 }

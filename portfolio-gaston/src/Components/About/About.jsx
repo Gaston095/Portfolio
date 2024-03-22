@@ -10,8 +10,8 @@ export default function About() {
                     <img className={styles.imgPerfil} src={imgPerfil} alt='imagen de perfil'/>
                 </div>
                 <div className={styles.infoContainer}>
-                    <h2>Sobre mi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <h2 className={styles.titleInfo}>Sobre mi</h2>
+                    <p className={styles.txtInfo}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                        Quaerat iste voluptatem illum quia natus amet modi repellat? 
                        Corporis veritatis iste esse consequuntur natus aut? Ab voluptas commodi esse ut iste?</p>
                 </div>
