@@ -29,11 +29,11 @@
 }
 
 .titleNameLabel {
-    color: #03bb85; 
+    color: var(--main-bg-color); 
 }
 
 .titleProfession {
-    color: #616161;
+    color: var(--text-dove-gray);
     margin-bottom: 10px;
     font-size: 1.7rem;
     line-height: clamp(1.5, 2vw + 1 rem, 2rem);
