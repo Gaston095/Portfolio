@@ -1,14 +1,15 @@
 .container {
     max-width: 90vw;
-    margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 7px;
+    margin: 1rem auto;
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+    /*box-shadow: 0px 8px 18px 0 rgba(0,0,0,0.14);*/
+    padding: 1.5rem;
     border-radius: 5px;
 }
 
 .title {
     font-size: 1.2rem;
-    color: var(--bg-viking);
+    color: var(--bg-deep-sea);
 }
 
 .date {
@@ -26,6 +27,6 @@
 }
 
 .tag {
-    color: var(--bg-viking);
+    color: var(--bg-deep-sea);
     margin: 4px;
 }
