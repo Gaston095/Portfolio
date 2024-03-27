@@ -7,6 +7,8 @@ export default function Experience() {
             <h1 className={styles.nameSection}>Experiencia</h1>
 
             <ExperienceCard />
+            <ExperienceCard />
+            <ExperienceCard />
         </>
     )
 }
