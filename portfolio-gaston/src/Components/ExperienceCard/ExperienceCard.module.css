@@ -8,7 +8,7 @@
 }
 
 .title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--bg-deep-sea);
 }
 
@@ -16,17 +16,27 @@
     color: var(--text-dove-gray);
 }
 
+.p {
+    font-size: 1rem;
+
+}
 
 .subtitle {
     font-size: 1.2rem;
+    color: #333333
+}
+
+.readMoreBtn {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    color: #111111;
 }
 
 .tagsContainer {
     display: flex;
     flex-wrap: wrap;
-}
-
-.tag {
-    color: var(--bg-deep-sea);
-    margin: 4px;
+    margin-top: 1rem;
 }

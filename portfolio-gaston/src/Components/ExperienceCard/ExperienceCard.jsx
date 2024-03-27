@@ -1,3 +1,4 @@
+import Tag from "../Tag/Tag";
 import styles from "./ExperienceCard.module.css";
 import { useState } from "react";
 
@@ -12,7 +13,7 @@ export default function ExperienceCard() {
 
           {readMore && (
             <div>
-              <p>
+              <p className={styles.p}>
                 Desarrollamos durante 5 semanas un proyecto llamado “Give It”,
                 un sitio web para realizar donaciones o poder regalar cosas que
                 uno ya no utiliza. Se utilizó react y java. En un equipo
@@ -20,7 +21,7 @@ export default function ExperienceCard() {
                 Tester.
               </p>
               <h2 className={styles.subtitle}>Responsabilidades:</h2>
-              <p>
+              <p className={styles.p}>
                 Desarrollar el formulario para el registro del usuario y el
                 logeo siguiendo prototipo del diseñador.
                 Realizar la conexión con el backend de ambos formularios.
@@ -29,16 +30,16 @@ export default function ExperienceCard() {
               </p>
             </div>
           )}
-          <button onClick={() => setReadMore(!readMore)}>
-            {readMore ? "Leer menos" : "Leer mas"}
+          <button className={styles.readMoreBtn} onClick={() => setReadMore(!readMore)}>
+            {readMore ? "Leer menos" : "Leer mas..."}
           </button>
         </header>
         <div className={styles.tagsContainer}>
-          <span className={styles.tag}>HTML 5</span>
-          <span className={styles.tag}>CSS 3</span>
-          <span className={styles.tag}>Javascript</span>
-          <span className={styles.tag}>React 18.2.0</span>
-          <span className={styles.tag}>TailwindCSS 3.4.1 </span>
+          <Tag>HTML 5</Tag>
+          <Tag>CSS 3</Tag>
+          <Tag>Javascript</Tag>
+          <Tag>React 18.2.0</Tag>
+          <Tag>TailwindCSS 3.4.1</Tag>
         </div>
       </article>
     </>
