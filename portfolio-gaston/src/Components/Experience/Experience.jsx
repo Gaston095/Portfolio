@@ -1,14 +1,16 @@
 import ExperienceCard from '../ExperienceCard/ExperienceCard'
 import styles from './Experience.module.css'
 import data from '../../Data/experience.json'
+import NameSection from '../NameSection/NameSection'
 export default function Experience() {
     return (
         <>
-            <h1 className={styles.nameSection}>Experiencia</h1>
-
+            <NameSection>Experiencia</NameSection>
+            <div className={styles.container}>
             {data.map((exp)=> {
                 return <ExperienceCard key={exp.id} title={exp.title} date={exp.date} description={exp.description} responsibility={exp.responsibility} tags={exp.tags}/>
             })}
+            </div>
         </>
     )
 }
