@@ -1,0 +1,13 @@
+.nameSection{
+    text-align: center;
+    width: fit-content;
+    margin: 3rem auto 2rem auto;
+    border-bottom: 3px solid var(--main-bg-color);
+    color: var(--main-bg-color);
+}
+
+@media (width >= 1000px) {
+    .nameSection{
+        margin: 5rem auto 4rem auto;
+    }
+}
