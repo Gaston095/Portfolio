@@ -1,0 +1,50 @@
+.container {
+    width: 300px;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imgContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgCard {
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.imgCard:hover {
+    transform: scale(1.8);
+}
+
+.txtContainer {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.titleCard {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.paragraphCard {
+    font-size: 15px;
+    color: #3f3f3f;
+    padding: 0 2rem;
+}
+
+.button {
+    padding: 0.3rem 0.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #5c5c5c;
+    border: 1px solid var(--main-bg-color);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+}

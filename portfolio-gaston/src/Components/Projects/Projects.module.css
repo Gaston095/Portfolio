@@ -1,7 +1,15 @@
-.nameSection{
-    text-align: center;
-    width: 170px;
-    margin: 5rem auto 1rem auto;
-    border-bottom: 3px solid var(--main-bg-color);
-    color: var(--main-bg-color);
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width >= 1000px) {
+    .section {
+        max-width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
