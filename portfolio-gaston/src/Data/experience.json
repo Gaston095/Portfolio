@@ -3,8 +3,20 @@
         "id": "0", 
         "title" : "Simulación laboral en No Country",
         "date" : "Febrero 2024 — Marzo 2024",
+        "linkRepo" : "/",
+        "linkDeploy" : "/",
         "description" : "Desarrollamos durante 5 semanas un proyecto llamado “Give It”, un sitio web para realizar donaciones o poder regalar cosas que uno ya no utiliza. Se utilizó react y java. En un equipo conformado por 7 integrantes, 3 Frontend, 2 Backend, Diseñador y Tester.",
         "responsibility" : "Desarrollar el formulario para el registro del usuario y el logeo siguiendo prototipo del diseñador. Realizar la conexión con el backend de ambos formularios. Manejar una vista en modo logeado y modo no logeado para los usuarios.",
         "tags": ["HTML 5", "CSS 3", "Javascript", "React 18.2.0", "TailwindCSS 3.4.1"]
+    },
+    {   
+        "id": "1", 
+        "title" : "Simulación laboral en No Country",
+        "date" : "Marzo 2024 — Abril 2024",
+        "linkRepo" : "https://github.com/No-Country/s14-11-m-java",
+        "linkDeploy" : "https://s14-11-m-java-e5su.vercel.app/",
+        "description" : "Eureka es una plataforma en línea de E-learning que ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
+        "responsibility" : "Desarrollar el formulario para el registro del usuario con su conexión al backend.  Realizar el dashboard del estudiante con la vista detalle de cada curso y conexión a endpoint del backend. Dashboard de profesor con conexión a endopoint backend para listar los cursos creados.",
+        "tags": ["HTML 5", "CSS 3", "Javascript", "React 18.2.0", "TailwindCSS 3.4.3", "Axios 1.6.8", "Git flow 0.2.0"]
     }
 ]

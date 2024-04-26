@@ -2,7 +2,8 @@ import Tag from "../Tag/Tag";
 import styles from "./ExperienceCard.module.css";
 import { useState } from "react";
 
-export default function ExperienceCard({title, date, description, responsibility, tags}) {
+
+export default function ExperienceCard({title, date, linkRepo, linkDeploy, description, responsibility, tags}) {
   const [readMore, setReadMore] = useState(false);
   return (
     <>
@@ -10,6 +11,9 @@ export default function ExperienceCard({title, date, description, responsibility
         <header>
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.date}>{date}</p>
+          <div className={styles.contLink}>
+            <a href={linkRepo} target="_blank">Hola</a>
+          </div>
 
           {readMore && (
             <div>
