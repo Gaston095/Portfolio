@@ -19,6 +19,20 @@
     font-weight: bold;
 }
 
+.contLink {
+    display: flex;
+    gap: 8px;
+}
+
+.labelLink {
+    font-weight: bold;
+    cursor: pointer;
+    background-color: var(--bg-deep-sea);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+
 .p {
     font-size: 1rem;
     font-weight: bold;

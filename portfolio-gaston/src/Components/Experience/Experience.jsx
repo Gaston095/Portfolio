@@ -8,7 +8,7 @@ export default function Experience() {
             <NameSection>Experiencia</NameSection>
             <div className={styles.container}>
             {data.map((exp)=> {
-                return <ExperienceCard key={exp.id} title={exp.title} date={exp.date} description={exp.description} responsibility={exp.responsibility} tags={exp.tags}/>
+                return <ExperienceCard key={exp.id} title={exp.title} date={exp.date} linkRepo={exp.linkRepo} linkDeploy={exp.linkDeploy} description={exp.description} responsibility={exp.responsibility} tags={exp.tags}/>
             })}
             </div>
         </>
