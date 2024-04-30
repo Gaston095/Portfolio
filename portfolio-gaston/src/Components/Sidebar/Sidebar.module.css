@@ -57,6 +57,12 @@
     background-color: var(--main-bg-color);
 }
 
+.ancor {    
+    text-decoration: none;
+    color: inherit;
+    transition: .3s all ease-out;
+}
+
 .w0 {
     width: 0;
 }
