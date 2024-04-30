@@ -27,11 +27,11 @@ export default function Sidebar({ open, setOpen }) {
 
         <div>
           <ul className={styles.liContainer}>
-            <li className={styles.li}>Inicio</li>
-            <li className={styles.li}>Sobre Mi</li>
-            <li className={styles.li}>Experiencia</li>
-            <li className={styles.li}>Proyectos</li>
-            <li className={styles.li}>Estudios</li>
+            <a href="/" className={styles.ancor}><li className={styles.li}>Inicio</li></a>
+            <a href="#Sobre Mi" className={styles.ancor}><li className={styles.li}>Sobre Mi</li></a>
+            <a href="#Experiencia" className={styles.ancor}><li className={styles.li}>Experiencia</li></a>
+            <a href="#Proyectos" className={styles.ancor}><li className={styles.li}>Proyectos</li></a>
+            <a href="" className={styles.ancor}><li className={styles.li}>Estudios</li></a>
           </ul>
         </div>
       </div>

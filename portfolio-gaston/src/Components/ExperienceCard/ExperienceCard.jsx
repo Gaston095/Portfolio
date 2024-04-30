@@ -11,9 +11,12 @@ export default function ExperienceCard({title, date, linkRepo, linkDeploy, descr
         <header>
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.date}>{date}</p>
+          {linkRepo != "" &&
           <div className={styles.contLink}>
-            <a href={linkRepo} target="_blank">Hola</a>
+            <a href={linkRepo} className={styles.linkRepo} target="_blank">Repositorio</a>
+            <a href={linkDeploy} className={styles.linkDeploy} target="_blank">Sitio Web</a>
           </div>
+          }
 
           {readMore && (
             <div>
