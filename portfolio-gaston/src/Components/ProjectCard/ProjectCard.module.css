@@ -34,14 +34,20 @@
     padding: 0 2rem;
 }
 
-.button {
-    padding: 0.3rem 0.5rem;
+.buttonContainer {
     margin: 1rem;
+}
+
+.button {
+    height: 33px;
+    width: 115px;
+    padding: 0.3rem 0.5rem;
     font-weight: bold;
     background-color: transparent;
     color: #5c5c5c;
     border: 1px solid var(--main-bg-color);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .button:hover {

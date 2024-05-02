@@ -1,17 +1,20 @@
 [
     {   
         "id": "0", 
-        "title" : "Title card",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?"
+        "title" : "Plataforma e-learning Eureka",
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "urlWebSite" : "https://s14-11-m-java-e5su.vercel.app/"
     },
     {   
         "id": "1", 
         "title" : "Title card",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?"
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "urlWebSite" : "/"
     },
     {   
         "id": "2", 
         "title" : "Title card",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?"
+        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "urlWebSite" : "/"
     }
 ]
