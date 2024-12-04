@@ -5,6 +5,10 @@
     font-family: "Hind", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --main-bg-color: #03bb85;
     --bg-deep-sea: #038554;
