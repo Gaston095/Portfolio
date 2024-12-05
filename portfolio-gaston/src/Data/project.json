@@ -1,20 +1,27 @@
 [
     {   
-        "id": "0", 
+        "id": "0",
+        "imgCard": "src/assets/eureka-desktop.webp",
         "title" : "Plataforma e-learning Eureka",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
-        "urlWebSite" : "https://s14-11-m-java-e5su.vercel.app/"
+        "description" : "Ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
+        "urlWebSite" : "https://s14-11-m-java-e5su.vercel.app/",
+        "urlRepository": "https://github.com/No-Country-simulation/s14-11-m-java"
+
     },
     {   
         "id": "1", 
+        "imgCard": "src/assets/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
-        "urlWebSite" : "/"
+        "urlWebSite" : "/",
+        "urlRepository": "/"
     },
     {   
         "id": "2", 
+        "imgCard": "src/assets/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
-        "urlWebSite" : "/"
+        "urlWebSite" : "/",
+        "urlRepository": "/"
     }
 ]
