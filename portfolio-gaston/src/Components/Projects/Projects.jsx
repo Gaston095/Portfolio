@@ -10,7 +10,7 @@ export default function Projects() {
 
             <section className={styles.section}>
                 {data.map((project) => {
-                    return <ProjectCard key={project.id} title={project.title} description={project.description} urlWebSite={project.urlWebSite}/>
+                    return <ProjectCard key={project.id} imgCard={project.imgCard} title={project.title} description={project.description} urlWebSite={project.urlWebSite} urlRepository={project.urlRepository}/>
                 })}
             </section>
         </>

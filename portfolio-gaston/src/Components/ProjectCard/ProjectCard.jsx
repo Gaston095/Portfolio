@@ -1,9 +1,8 @@
 import styles from "./ProjectCard.module.css";
-import imgCard from "../../assets/imgCard.jpg";
 import IconGithub from "../icons/IconGithub";
 import IconPlus from "../icons/iconPlus"
 
-export default function ProjectCard({ title, description, urlWebSite }) {
+export default function ProjectCard({ imgCard, title, description, urlWebSite, urlRepository }) {
   return (
     <>
       <article className={styles.container}>
@@ -18,7 +17,7 @@ export default function ProjectCard({ title, description, urlWebSite }) {
               Ver Sitio Web
             </a>
             <div className={styles.githubButton}>
-              <a href="https://github.com/Gaston095" target="_blank">
+              <a href={urlRepository} target="_blank">
                 <IconGithub />
               </a>
             </div>
