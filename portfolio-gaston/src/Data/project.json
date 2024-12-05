@@ -4,6 +4,7 @@
         "imgCard": "src/assets/eureka-desktop.webp",
         "title" : "Plataforma e-learning Eureka",
         "description" : "Ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
+        "alternativeDesciption" : "Desarrollé el formulario para el registro del usuario con su conexión al backend. Realizé el dashboard del estudiante con la vista detalle de cada curso y conexión a endpoint, también el Dashboard de profesor con conexión a endopoint backend para listar los cursos creados.",
         "urlWebSite" : "https://s14-11-m-java-e5su.vercel.app/",
         "urlRepository": "https://github.com/No-Country-simulation/s14-11-m-java"
 
@@ -13,6 +14,7 @@
         "imgCard": "src/assets/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "alternativeDesciption" : "Texto alternativo",
         "urlWebSite" : "/",
         "urlRepository": "/"
     },
@@ -21,6 +23,7 @@
         "imgCard": "src/assets/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "alternativeDesciption" : "Texto alternativo",
         "urlWebSite" : "/",
         "urlRepository": "/"
     }
