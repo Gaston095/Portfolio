@@ -1,0 +1,10 @@
+.footerContainer {
+    box-shadow: 0 1px 10px #e1e1e1;
+}
+
+.socialContainer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

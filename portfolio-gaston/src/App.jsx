@@ -4,6 +4,7 @@ import Home from './Components/Home/Home.jsx'
 import About from './Components/About/About.jsx'
 import Experience from './Components/Experience/Experience.jsx'
 import Projects from './Components/Projects/Projects.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Footer />
     </>
   )
 }
