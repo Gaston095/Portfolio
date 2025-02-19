@@ -1,3 +1,4 @@
+
 .container {
     width: 300px;
     margin: 1rem;
@@ -26,6 +27,7 @@
 .titleCard {
     font-size: 20px;
     margin: 5px;
+    color: black;
 }
 
 .paragraphCard {

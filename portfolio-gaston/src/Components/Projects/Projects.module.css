@@ -1,3 +1,7 @@
+.decorationNone {
+    text-decoration: none;
+}
+
 .section {
     display: flex;
     flex-direction: column;
