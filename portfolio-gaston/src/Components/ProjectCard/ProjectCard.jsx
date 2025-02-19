@@ -1,8 +1,10 @@
 import styles from "./ProjectCard.module.css";
 import IconGithub from "../icons/IconGithub";
 import IconPlus from "../icons/iconPlus"
+import { useState } from "react";
 
-export default function ProjectCard({ imgCard, title, description, urlWebSite, urlRepository }) {
+export default function ProjectCard({ imgCard, title, description, alternativeDesciption, urlWebSite, urlRepository }) {
+    const [seeMoreInfo, setSeeMoreInfo] = useState(true)
   return (
     <>
       <article className={styles.container}>
@@ -11,7 +13,7 @@ export default function ProjectCard({ imgCard, title, description, urlWebSite, u
         </div>
         <div className={styles.txtContainer}>
           <h1 className={styles.titleCard}>{title}</h1>
-          <p className={styles.paragraphCard}>{description}</p>
+          {seeMoreInfo ? <p className={styles.paragraphCard}>{description}</p> : <p className={styles.paragraphCard}>{alternativeDesciption}</p>}
           <div className={styles.buttonContainer}>
             <a href={urlWebSite} target="_blank" className={styles.button}>
               Ver Sitio Web
@@ -22,9 +24,7 @@ export default function ProjectCard({ imgCard, title, description, urlWebSite, u
               </a>
             </div>
             <div className={styles.githubButton}>
-              <a href="https://github.com/Gaston095" target="_blank">
-                <IconPlus />
-              </a> 
+              <button className={styles.buttomPlus} onClick={()=> {setSeeMoreInfo(!seeMoreInfo)}}><IconPlus /></button>
             </div>
           </div>
         </div>
