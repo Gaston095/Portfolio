@@ -5,6 +5,10 @@ import { useState } from "react";
 
 export default function ProjectCard({ imgCard, title, description, alternativeDesciption, urlWebSite, urlRepository }) {
     const [seeMoreInfo, setSeeMoreInfo] = useState(true)
+
+    const handleAnchorClick = (event) => {
+      event.stopPropagation();
+    }
   return (
     <>
       <article className={styles.container}>
@@ -15,11 +19,11 @@ export default function ProjectCard({ imgCard, title, description, alternativeDe
           <h1 className={styles.titleCard}>{title}</h1>
           {seeMoreInfo ? <p className={styles.paragraphCard}>{description}</p> : <p className={styles.paragraphCard}>{alternativeDesciption}</p>}
           <div className={styles.buttonContainer}>
-            <a href={urlWebSite} target="_blank" className={styles.button}>
+            <a href={urlWebSite} onClick={handleAnchorClick} target="_blank" className={styles.button}>
               Ver Sitio Web
             </a>
             <div className={styles.githubButton}>
-              <a href={urlRepository} target="_blank">
+              <a href={urlRepository} onClick={handleAnchorClick} target="_blank">
                 <IconGithub />
               </a>
             </div>
