@@ -14,7 +14,9 @@ export default function About() {
                 </div>
                 <div className={styles.infoContainer}>
                     <h2 className={styles.titleInfo}>Sobre mi</h2>
-                    <p className={styles.txtInfo}>{data[0].aboutMe}</p>
+                    <p className={styles.txtInfo}>{data[0].aboutMe1}</p>
+                    <p className={styles.txtInfo}>{data[0].aboutMe2}</p>
+
                 </div>
             </div>
         </>

@@ -1,6 +1,11 @@
 import styles from "./Sidebar.module.css";
 
 export default function Sidebar({ open, setOpen }) {
+  
+  const handleClick = () => {
+    setOpen(false);  // Cierra el menú al hacer clic en cualquier enlace
+  };
+
   return (
     <>
       <div className={`${!open && styles.hidden} ${styles.capaSidebar}`}></div>
@@ -27,11 +32,10 @@ export default function Sidebar({ open, setOpen }) {
 
         <div>
           <ul className={styles.liContainer}>
-            <a href="/" className={styles.ancor}><li className={styles.li}>Inicio</li></a>
-            <a href="#Sobre Mi" className={styles.ancor}><li className={styles.li}>Sobre Mi</li></a>
-            <a href="#Experiencia" className={styles.ancor}><li className={styles.li}>Experiencia</li></a>
-            <a href="#Proyectos" className={styles.ancor}><li className={styles.li}>Proyectos</li></a>
-            <a href="" className={styles.ancor}><li className={styles.li}>Estudios</li></a>
+            <a href="/" className={styles.ancor}><li className={styles.li} onClick={handleClick}>Inicio</li></a>
+            <a href="#Sobre Mi" className={styles.ancor}><li className={styles.li} onClick={handleClick}>Sobre Mi</li></a>
+            <a href="#Experiencia" className={styles.ancor}><li className={styles.li} onClick={handleClick}>Experiencia</li></a>
+            <a href="#Proyectos" className={styles.ancor}><li className={styles.li} onClick={handleClick}>Proyectos</li></a>
           </ul>
         </div>
       </div>

@@ -13,17 +13,17 @@ export default function ProjectCard({ imgCard, title, description, alternativeDe
     <>
       <article className={styles.container}>
         <div className={styles.imgContainer}>
-          <img src={imgCard} className={styles.imgCard} />
+          <img alt="Portada del proyecto" src={imgCard} className={styles.imgCard} />
         </div>
         <div className={styles.txtContainer}>
           <h1 className={styles.titleCard}>{title}</h1>
           {seeMoreInfo ? <p className={styles.paragraphCard}>{description}</p> : <p className={styles.paragraphCard}>{alternativeDesciption}</p>}
           <div className={styles.buttonContainer}>
-            <a href={urlWebSite} onClick={handleAnchorClick} target="_blank" className={styles.button}>
+            <a href={urlWebSite} onClick={handleAnchorClick} target="_blank" rel="noopener noreferrer" className={styles.button}>
               Ver Sitio Web
             </a>
             <div className={styles.githubButton}>
-              <a href={urlRepository} onClick={handleAnchorClick} target="_blank">
+              <a href={urlRepository} onClick={handleAnchorClick} target="_blank" rel="noopener noreferrer">
                 <IconGithub />
               </a>
             </div>
