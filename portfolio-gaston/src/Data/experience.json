@@ -18,5 +18,15 @@
         "description" : "Eureka es una plataforma en línea de E-learning que ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
         "responsibility" : "Desarrollar el formulario para el registro del usuario con su conexión al backend.  Realizar el dashboard del estudiante con la vista detalle de cada curso y conexión a endpoint del backend. Dashboard de profesor con conexión a endopoint backend para listar los cursos creados.",
         "tags": ["HTML 5", "CSS 3", "Javascript", "React 18.2.0", "TailwindCSS 3.4.3", "Axios 1.6.8", "Git flow 0.2.0"]
+    },
+    {   
+        "id": "2", 
+        "title" : "Simulación laboral en No Country",
+        "date" : "Febrero 2025 — Marzo 2025",
+        "linkRepo" : "https://github.com/No-Country-simulation/equipo-s21-18-m-webapp",
+        "linkDeploy" : "https://fitlover.vercel.app/",
+        "description" : "Fit Lover es una aplicación web diseñada para ofrecer rutinas de entrenamiento personalizadas, adaptadas a las necesidades de cada usuario. La plataforma proporciona ejercicios que pueden realizarse tanto en casa como en el gimnasio.",
+        "responsibility" : "Gestionar la autenticación del usuario en el frontend, adaptando las vistas según su estado de inicio de sesión, e incluir una sección de perfil donde pueda modificar sus datos. Gestionar el ruteo de la aplicación con react-router-dom y administrar el panel de usuario.",
+        "tags": ["HTML 5", "CSS 3", "Javascript", "React 19.0.0", "Vite 6.1.0", "TailwindCSS 4.0.7", "Axios 1.8.1"]
     }
 ]

@@ -11,18 +11,18 @@
     },
     {   
         "id": "1", 
-        "imgCard": "/imgCard.jpg",
-        "title" : "Title card",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "imgCard": "/fitlover-desktop.PNG",
+        "title" : "Fit Lover",
+        "description" : "Fit Lover es una aplicación web que ofrece rutinas de entrenamiento personalizadas, con ejercicios para realizar en casa o en el gimnasio.",
         "alternativeDesciption" : "Texto alternativo",
-        "urlWebSite" : "/",
-        "urlRepository": "/"
+        "urlWebSite" : "https://fitlover.vercel.app/",
+        "urlRepository": "https://github.com/No-Country-simulation/equipo-s21-18-m-webapp"
     },
     {   
         "id": "2", 
         "imgCard": "/imgCard.jpg",
-        "title" : "Title card",
-        "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
+        "title" : "Cocteles GS",
+        "description" : "Este sitio web permite a los usuarios explorar una amplia variedad de cocteles, ofreciendo recetas fáciles de seguir para que puedan replicar sus bebidas favoritas en casa.",
         "alternativeDesciption" : "Texto alternativo",
         "urlWebSite" : "/",
         "urlRepository": "/"

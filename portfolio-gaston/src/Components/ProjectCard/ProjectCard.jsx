@@ -27,9 +27,9 @@ export default function ProjectCard({ imgCard, title, description, alternativeDe
                 <IconGithub />
               </a>
             </div>
-            <div className={styles.githubButton}>
+            {/* <div className={styles.githubButton}>
               <button className={styles.buttomPlus} onClick={()=> {setSeeMoreInfo(!seeMoreInfo)}}><IconPlus /></button>
-            </div>
+            </div> */}
           </div>
         </div>
       </article>
