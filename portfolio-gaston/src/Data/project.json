@@ -1,7 +1,7 @@
 [
     {   
         "id": "0",
-        "imgCard": "src/assets/eureka-desktop.webp",
+        "imgCard": "/eureka-desktop.webp",
         "title" : "Plataforma e-learning Eureka",
         "description" : "Ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
         "alternativeDesciption" : "Desarrollé el formulario de registro de usuario, integrándolo con el backend. También creé el dashboard para estudiantes, que incluye una vista detallada de cada curso y su conexión a los endpoints correspondientes. Además, implementé el dashboard para profesores, permitiendo la conexión al backend para listar los cursos creados",
@@ -11,7 +11,7 @@
     },
     {   
         "id": "1", 
-        "imgCard": "src/assets/imgCard.jpg",
+        "imgCard": "/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
         "alternativeDesciption" : "Texto alternativo",
@@ -20,7 +20,7 @@
     },
     {   
         "id": "2", 
-        "imgCard": "src/assets/imgCard.jpg",
+        "imgCard": "/imgCard.jpg",
         "title" : "Title card",
         "description" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut id iste voluptatum praesentium est, beatae, a dicta nulla commodi quidem animi ratione consequuntur?",
         "alternativeDesciption" : "Texto alternativo",

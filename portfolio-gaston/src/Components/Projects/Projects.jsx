@@ -11,7 +11,7 @@ export default function Projects() {
 
             <section className={styles.section}>
                 {data.map((project) => {
-                    return <Link className={styles.decorationNone} to={`/project/${project.id}`}><ProjectCard key={project.id} imgCard={project.imgCard} title={project.title} description={project.description} alternativeDesciption={project.alternativeDesciption} urlWebSite={project.urlWebSite} urlRepository={project.urlRepository}/></Link>
+                    return <Link key={project.id} className={styles.decorationNone} to={`/project/${project.id}`}><ProjectCard key={project.id} imgCard={project.imgCard} title={project.title} description={project.description} alternativeDesciption={project.alternativeDesciption} urlWebSite={project.urlWebSite} urlRepository={project.urlRepository}/></Link>
                 })}
             </section>
         </>
