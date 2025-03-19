@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className={styles.titleName}>
             <label className={styles.titleNameLabel}>{data[0].name}</label> {data[0].lastname}
           </h1>
-          <label className={styles.titleProfession}>
+          <label translate="no" className={styles.titleProfession}>
             Soy {data[0].rol}
           </label>
         </div>
