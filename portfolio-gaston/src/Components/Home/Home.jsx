@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.containerTxt}>
           <label className={styles.labelGreeting}>Hola, mi nombre es</label>
-          <h1 className={styles.titleName}>
+          <h1 translate="no" className={styles.titleName}>
             <label className={styles.titleNameLabel}>{data[0].name}</label> {data[0].lastname}
           </h1>
           <label translate="no" className={styles.titleProfession}>

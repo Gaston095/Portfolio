@@ -24,7 +24,7 @@
   max-width: 90%;
   margin: 0 auto;
   display: flex;
-  height: calc(100vh - 60px);
+  min-height: 100vh;
   padding-top: 50px;
 }
 
@@ -95,10 +95,17 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+  .textContainer {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .container {
     flex-direction: column;
-    width: 100%;
     padding-top: 10px;
   }
 
@@ -113,7 +120,7 @@
 }
  
 
-@media only screen and (max-width: 1200px) {
+@media screen and (min-width: 500px) and (max-width: 1200px) {
     .textContainer {
         padding: 30px;
     }
