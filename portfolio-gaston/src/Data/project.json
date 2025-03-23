@@ -28,7 +28,7 @@
         "id": "2", 
         "imgCard": "/coctelesgs-desktop.PNG",
         "imgDesktop" : "/coctelesgs-desktop.PNG",
-        "imgMobile" : "/coctelesgs-desktop.PNG",
+        "imgMobile" : "/coctelesgs-responsive.PNG",
         "title" : "Cocteles GS",
         "description" : "Este sitio web permite a los usuarios explorar una amplia variedad de cocteles, ofreciendo recetas fáciles de seguir para que puedan replicar sus bebidas favoritas en casa.",
         "fullDescription" : "Cocteles Gs es una aplicación web interactiva construida con React que permite a los usuarios explorar una amplia variedad de cocteles y aprender cómo prepararlos. El objetivo principal de esta aplicación es ofrecer a los usuarios recetas fáciles de seguir para que puedan replicar sus bebidas favoritas en casa.",
