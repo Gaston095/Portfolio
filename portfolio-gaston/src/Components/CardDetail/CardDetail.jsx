@@ -33,8 +33,9 @@ export default function CarDetail() {
         <div className={styles.textContainer}>
           <h1>{dataProject.title}</h1>
           <p>{dataProject.fullDescription}</p>
+          <p>{dataProject.optionalDescription}</p>
 
-          <h2>Responsabilidades</h2>
+          {dataProject.personalPRoject? <h2>Objetivo</h2> : <h2>Responsabilidades</h2>} 
           <p>{dataProject.responsibilities}</p>
 
           <div className={styles.buttonContainer}>

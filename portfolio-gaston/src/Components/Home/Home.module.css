@@ -39,6 +39,20 @@
     line-height: clamp(1.5, 2vw + 1 rem, 2rem);
 }
 
+.downloadBtn {
+    text-decoration: none;
+    background-color: var(--main-bg-color);
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    color: #F5F5F5;
+    border-radius: 5px;
+}
+
+.downloadBtn:hover {
+    background-color: #2ce3a1;
+}
+
 .imgAbout {
     width: 250px;
     height:250px;

@@ -7,6 +7,8 @@
         "title" : "Plataforma e-learning Eureka",
         "description" : "Ofrece una amplia variedad de cursos sobre diversos temas. Los profesores tienen la posibilidad de crear cursos y agregarles contenido, mientras que los estudiantes pueden inscribirse y estudiar el curso de su elección",
         "fullDescription" : "Eureka es una plataforma en línea de E-learning que ofrece una amplia variedad de cursos sobre diversos temas. Los profesores pueden crear cursos y agregarles contenido. Los estudiantes pueden inscribirse y estudiar el curso seleccionado.",
+        "optionalDescription" : "Este proyecto lo desarrollamos durante 5 semanas en un equipo compuesto por 1 PM, 1 UX/UI, 4 desarrolladores frontend, 6 desarrolladores backend y 2 QA, lo que me permitió reforzar y poner a prueba mis habilidades blandas.",
+        "personalPRoject" : false,
         "responsibilities" : "Desarrollé el formulario de registro de usuario, integrándolo con el backend. También creé el dashboard para estudiantes, que incluye una vista detallada de cada curso y su conexión a los endpoints correspondientes. Además, implementé el dashboard para profesores, permitiendo la conexión al backend para listar los cursos creados",
         "urlWebSite" : "https://s14-11-m-java-e5su.vercel.app/",
         "urlRepository": "https://github.com/No-Country-simulation/s14-11-m-java"
@@ -20,6 +22,8 @@
         "title" : "Fit Lover",
         "description" : "Fit Lover es una aplicación web que ofrece rutinas de entrenamiento personalizadas, con ejercicios para realizar en casa o en el gimnasio.",
         "fullDescription" : "Fit Lover es una aplicación web que ofrece rutinas de entrenamiento personalizadas, con ejercicios para realizar en casa o en el gimnasio.",
+        "optionalDescription" : "Este proyecto lo desarrollamos durante 5 semanas en un equipo compuesto por 1 PM, 3 desarrolladores frontend, 3 desarrolladores backend y 2 QA, lo que me permitió reforzar y poner a prueba mis habilidades blandas.",
+        "personalPRoject" : false,
         "responsibilities" : "Gestionar la autenticación del usuario en el frontend, adaptando las vistas según su estado de inicio de sesión, e incluir una sección de perfil donde pueda modificar sus datos. Gestionar el ruteo de la aplicación con react-router-dom y administrar el panel de usuario.",
         "urlWebSite" : "https://fitlover.vercel.app/",
         "urlRepository": "https://github.com/No-Country-simulation/equipo-s21-18-m-webapp"
@@ -32,7 +36,9 @@
         "title" : "Cocteles GS",
         "description" : "Este sitio web permite a los usuarios explorar una amplia variedad de cocteles, ofreciendo recetas fáciles de seguir para que puedan replicar sus bebidas favoritas en casa.",
         "fullDescription" : "Cocteles Gs es una aplicación web interactiva construida con React que permite a los usuarios explorar una amplia variedad de cocteles y aprender cómo prepararlos. El objetivo principal de esta aplicación es ofrecer a los usuarios recetas fáciles de seguir para que puedan replicar sus bebidas favoritas en casa.",
-        "responsibilities" : "Este proyecto fue diseñado para poner en práctica mis habilidades con React y explorar cómo crear una aplicación que permita interactuar con una base de datos de recetas. La aplicación ofrece una experiencia divertida y útil para cualquier amante de los cocteles, y es un excelente ejemplo de cómo utilizar React para crear aplicaciones dinámicas y fáciles de usar.",
+        "optionalDescription" : "",
+        "personalPRoject" : true,
+        "responsibilities" : "Este proyecto personal fue diseñado para poner en práctica mis habilidades con React y explorar cómo crear una aplicación que permita interactuar con una base de datos de recetas. La aplicación ofrece una experiencia divertida y útil para cualquier amante de los cocteles, y es un excelente ejemplo de cómo utilizar React para crear aplicaciones dinámicas y fáciles de usar.",
         "urlWebSite" : "https://coctelesgs.vercel.app/",
         "urlRepository": "https://github.com/Gaston095/coctelesGS-react"
     }
