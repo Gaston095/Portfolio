@@ -28,5 +28,15 @@
         "description" : "Fit Lover es una aplicación web diseñada para ofrecer rutinas de entrenamiento personalizadas, adaptadas a las necesidades de cada usuario. La plataforma proporciona ejercicios que pueden realizarse tanto en casa como en el gimnasio.",
         "responsibility" : "Gestionar la autenticación del usuario en el frontend, adaptando las vistas según su estado de inicio de sesión, e incluir una sección de perfil donde pueda modificar sus datos. Gestionar el ruteo de la aplicación con react-router-dom y administrar el panel de usuario.",
         "tags": ["HTML 5", "CSS 3", "Javascript", "React 19.0.0", "Vite 6.1.0", "TailwindCSS 4.0.7", "Axios 1.8.1"]
+    },
+    {   
+        "id": "3", 
+        "title" : "Landing Page Fraire & Asoc.",
+        "date" : "Mayo 2025",
+        "linkRepo" : "",
+        "linkDeploy" : "https://www.fraireyasoc.com/",
+        "description" : "Proyecto freelance para un cliente real, con quien mantuve comunicación constante. Asesoré en la compra de hosting y dominio, realicé el deploy y gestioné todo el proceso, lo que me permitió mejorar mis habilidades técnicas y de comunicación.",
+        "responsibility" : "Diseño y desarrollo de una landing page institucional con estructura clara y secciones informativas para el estudio juridico Fraire & Asoc.",
+        "tags": ["HTML 5", "CSS 3", "Javascript", "React 19.0.0", "Vite 6.2.0", "TailwindCSS 4.1.3"]
     }
 ]

@@ -1,6 +1,20 @@
 [
     {   
-        "id": "0",
+        "id": "0", 
+        "imgCard": "/fraire-desktop.avif",
+        "imgDesktop" : "/fraire-desktop.avif",
+        "imgMobile" : "/fraire-mobile.avif",
+        "title" : "Fraire & Asociados",
+        "description" : "Diseño y desarrollo de una landing page institucional con estructura clara y secciones informativas para el estudio juridico Fraire & Asoc.",
+        "fullDescription" : "Diseño y desarrollo de una landing page institucional completamente responsive y optimizada para SEO. El sitio incluye secciones como Nosotros, Servicios, Equipo, Testimonios y Contacto, enfocadas en comunicar confianza y profesionalismo.",
+        "optionalDescription" : "Desarrollado con React + Vite y estilizado con Tailwind CSS para lograr un rendimiento ágil, código limpio y una experiencia visual moderna.",
+        "personalPRoject" : true,
+        "responsibilities" : "Este proyecto freelance fue realizado para un cliente real, con quien mantuve una comunicación constante durante todo el proceso. Además del desarrollo del sitio, lo asesoré en la compra de hosting y dominio, y me encargué del deploy final. Esta experiencia me permitió fortalecer mis habilidades técnicas y mejorar mi capacidad para gestionar proyectos de forma integral, desde el contacto inicial hasta la publicación online.",
+        "urlWebSite" : "https://www.fraireyasoc.com/",
+        "urlRepository": ""
+    },
+    {   
+        "id": "1",
         "imgCard": "/eureka-desktop.webp",
         "imgDesktop" : "/eureka-desktop.webp",
         "imgMobile" : "/eureka-mobile.webp",
@@ -15,7 +29,7 @@
 
     },
     {   
-        "id": "1", 
+        "id": "2", 
         "imgCard": "/fitlover-desktop.PNG",
         "imgDesktop" : "/fitlover-desktop.PNG",
         "imgMobile" : "/fitlover-mobile.PNG",
@@ -29,7 +43,7 @@
         "urlRepository": "https://github.com/No-Country-simulation/equipo-s21-18-m-webapp"
     },
     {   
-        "id": "2", 
+        "id": "3", 
         "imgCard": "/coctelesgs-desktop.PNG",
         "imgDesktop" : "/coctelesgs-desktop.PNG",
         "imgMobile" : "/coctelesgs-responsive.PNG",
